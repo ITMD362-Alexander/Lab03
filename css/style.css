@@ -2,13 +2,13 @@ body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    color: #333;
-    background-color: #f9f9f9;
+    color: #e77b7b;
+    background-color: #96fa89;
     padding: 20px;
   }
 
 form {
-    background-color: #fff;
+    background-color: #cc3535;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -29,7 +29,7 @@ input[type="submit"] {
   width: 100%;
   padding: 10px;
   margin-bottom: 10px;
-  border: 1px solid #ddd;
+  border: 1px solid #160606;
   border-radius: 4px;
   box-sizing: border-box;
 }
@@ -39,20 +39,25 @@ input[type="checkbox"] {
 }
 
 input[type="submit"] {
-  background-color: #007bff;
-  color: #fff;
+  background-color: #1ed1f9;
+  color: #000000;
   border: none;
   cursor: pointer;
 }
 
 input[type="submit"]:hover {
-  background-color: #0056b3;
+  background-color: #3ff8ca;
 }
 
-/* Mobile styles */
+/* Media styles */
 @media screen and (max-width: 768px) {
   form {
     max-width: 300px;
     margin: 0 auto;
+    /* Additional styling (buffing) */
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
 }
