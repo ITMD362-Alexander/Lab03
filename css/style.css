@@ -54,7 +54,6 @@ input[type="submit"]:hover {
   form {
     max-width: 300px;
     margin: 0 auto;
-    /* Additional styling (buffing) */
     padding: 20px;
     background-color: #f0f0f0;
     border-radius: 10px;
