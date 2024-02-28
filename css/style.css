@@ -8,7 +8,7 @@ body {
 }
 
 form {
-    background-color: #cc3535;
+    background-color: #eebbbb;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -22,6 +22,7 @@ form {
   h1 {
     margin-top: 0;
     font-size: 24px;
+    color:black
   }
   
   p {
